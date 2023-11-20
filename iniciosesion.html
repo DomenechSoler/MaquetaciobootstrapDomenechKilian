@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="../bootstrap.css">
+  
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark  text-white">
+            <div class="container">
+                <a class="navbar-brand text-white" href="../index.html">
+                    <img src="../img/vanilla.svg" alt="Logo VanillaGames" width="50" height="40">
+                    VanillaGames
+                </a>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> <!-- Agregamos 'justify-content-center' para centrar el menú -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Top 5 Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex">
+                    
+                    <button class="btn btn-outline-light"> <a class="text-decoration-none text-white" href="registro.html">Registrarse</a></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+      <!-- Título centrado y enorme -->
+      <div class="text-center fs-1 mt-5">Inicia sesión</div>
+         <!-- Formulario de inicio de sesión -->
+         <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-5 border border-2">
+                    <form>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" placeholder="Tu contraseña">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="remember">
+                            <label class="form-check-label" for="remember">Recordar Sesión</label>
+                        </div>
+                        <div class="mb-3 text-end">
+                            <a href="">¿Has olvidado tu contraseña?</a>
+                        </div>
+                        
+                        <div class="container text-center"> 
+                            <button type="submit" class="btn btn-primary mb-3 w-100"><a class="text-decoration-none text-white" href="proyecto.html">Iniciar Sesión</a></button>
+                        </div>
+                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- Botón "¿Eres nuevo? Regístrate" fuera del formulario -->
+    <div class="container text-center mt-3 col-md-4">
+        <button class="btn btn-secondary w-100"><a class="text-decoration-none text-dark" href="registro.html">¿Eres nuevo? Regístrate</a></button>
+    </div>
+
+     
+
+
+</body>
+<footer class="bg-light py-3 fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../img/vanilla.svg" alt="Logo" width="50" height="30">
+                FPLlefia
+            </div>
+            <div class="col-md-4 text-center">
+                DAW-Asignatura de proyectos
+            </div>
+            <div class="col-md-4 text-end">
+                <p>carrebolagithub</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
